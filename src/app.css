@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+@plugin 'daisyui'{
+  themes:'light --default'
+}
+@plugin 'daisyui/theme'{
+  name:"light";
+  default:true;
+  --color-primary: '#0553B1';
+  --color-secondary: '#027DFD';
+}
+
+@layer base{
+  body{
+    @apply font-[poppins]
+  }
+}
+@layer utilities{
+  .btn{
+    @apply rounded-lg
+  }
+}
