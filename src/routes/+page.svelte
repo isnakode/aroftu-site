@@ -77,10 +77,14 @@
     </div>
     <div class="flex flex-col items-center text-center p-8 pt-16 gap-4">
       <h1
-        class="lg:text-5xl text-3xl uppercase md:w-1/2 leading-tight font-black"
+        class="lg:text-5xl text-3xl relative uppercase md:w-1/2 leading-tight font-black"
       >
-        Jadi developer Android dengan <span class="text-secondary">Flutter</span
+        <span
+          class="absolute top-0 right-0 p-2 bg-red-400 text-lg text-white rounded-lg rotate-45"
+          >Coming soon</span
         >
+        Jadi developer Android dengan
+        <span class="text-secondary">Flutter</span>
       </h1>
       <p class="text-lg md:w-1/2">
         Belajar Flutter dari dasar hingga bisa membuat aplikasimu sendiri
